@@ -5,8 +5,10 @@ function App() {
   return (
     <div>
       <h3>The Molution</h3>
-      <Potato/>
-      
+      <Potato favorite="Salty"/>
+      <Potato favorite="Sweetie"/>
+      <Potato favorite="Creamy"/>
+
     </div>
   );
 }
