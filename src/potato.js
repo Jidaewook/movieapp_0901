@@ -1,8 +1,13 @@
 import React from 'react';
 
 
-function Potato({favorite}){
-    return <h3>I love Potato{favorite}</h3>;
+function Potato({name, picture}){
+    return (
+        <div>
+            <h2>I love {name}</h2>
+            <img src={picture}/>
+        </div>
+    );
 
 }
 
