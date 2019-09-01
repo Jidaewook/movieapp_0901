@@ -14,7 +14,20 @@ class App extends Component {
     this.setState(current => ({count: current.count -1}));
   };
 
+  componentDidMount(){
+    console.log("componentDidMount");
+  }
+
+  componentDidUpdate(){
+    console.log("componentDidUpdate");
+  }
+
+  componentWillMount(){
+    console.log("componentWillMount");
+  }
+
   render(){
+    console.log("I my me mine");
     return(
       <div>
         <h1>The number is: {this.state.count}</h1>
